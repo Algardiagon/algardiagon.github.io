@@ -163,7 +163,8 @@ background-size: cover;
 	height: 400px;
     margin-top: 500px;
     padding-bottom: 100px;
-    text-align: center;
+    text-align: right;
+	align-items: flex-end;
 }
 
 @media (max-width: 768px) {
