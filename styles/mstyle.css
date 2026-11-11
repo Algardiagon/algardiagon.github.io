@@ -113,7 +113,6 @@ img.picture ~ figcaption {
 }
 
 .square-button {
-  display: flex;
   justify-content: center;
   align-items: center;
 
