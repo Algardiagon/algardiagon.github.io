@@ -117,8 +117,8 @@ img.picture ~ figcaption {
   justify-content: center;
   align-items: center;
 
-  width: 100px;
-  height: 30px;
+  width: 300px;
+  height: 40px;
 
   background-color: #082419;
   color: var(--lcol);
