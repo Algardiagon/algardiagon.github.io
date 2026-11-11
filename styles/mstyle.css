@@ -119,7 +119,8 @@ img.picture ~ figcaption {
 
   box-sizing: border-box;
   flex-shrink: 0;
-	
+
+  background-color: var(--gcol);
   color: var(--lcol);
   text-decoration: none;
   border-radius: 8px;
