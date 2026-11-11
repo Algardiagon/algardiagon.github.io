@@ -112,12 +112,6 @@ img.picture ~ figcaption {
     text-align: center;
 }
 
- 
-.button-container {
-  display: flex;
-  gap: 10px;
-}
-
 .square-button {
   display: flex;
   justify-content: center;
@@ -127,7 +121,7 @@ img.picture ~ figcaption {
   height: 30px;
 
   background-color: #082419;
-  color: #F2EBD8;
+  color: var(--lcol);
   text-decoration: none;
   border-radius: 8px;
   font-weight: bold;
