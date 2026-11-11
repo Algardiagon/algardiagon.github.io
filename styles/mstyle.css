@@ -124,7 +124,7 @@ img.picture ~ figcaption {
   justify-content: center;
   width: 100%;
   gap: 10px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 
 .square-button {
