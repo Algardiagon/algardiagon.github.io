@@ -111,8 +111,15 @@ img.picture ~ figcaption {
   align-items: center;
 
   width: 300px;
-  height: 40px;
+  min-width: 300px;
+  max-width: 300px;
 
+  height: 40px;
+  min-height: 40px;
+
+  box-sizing: border-box;
+  flex-shrink: 0;
+	
   color: var(--lcol);
   text-decoration: none;
   border-radius: 8px;
