@@ -2,9 +2,11 @@
 
 
 :root {
-    --col: #1F8A3B;
-    --bcol: #e85b63;
-    --lcol: #76b6ca;
+    --col: #1F8A3B; /*green */
+    --bcol: #e85b63; /*red */
+    --lcol: #76b6ca; /*blue */
+	--gcol: #082419; /*greenboard */
+	--wcol: #F2EBD8; /*white */
     --heading-font: 'roboto', sans-serif;
     --body-font: 'roboto', sans-serif;
 }
@@ -21,20 +23,16 @@ body {
     font-family: var(--body-font);
     font-size: 20px;
     background-color: #111111;
-    color: #F2EBD8;
+    color: var(--wcol);
 }
 
 header h1 a {
     padding: 0;
 }
 
-header a:hover {
-    color: #a418db;
-}
-
 header {
     padding: 15px;
-    background-color: #082419;
+    background-color: var(--gcol);
     border-bottom: 3px solid var(--bcol);
 }
 
@@ -79,10 +77,6 @@ a {
     transition: color 0.5s;
 }
 
-a:hover{
-    color: #E2E2B6;
-}
-
 
 nav {
     display: flex;
@@ -119,11 +113,11 @@ img.picture ~ figcaption {
   width: 300px;
   height: 40px;
 
-  background-color: #082419;
   color: var(--lcol);
   text-decoration: none;
   border-radius: 8px;
   font-weight: bold;
+	border: 2px solid var(--bcol);
 }
 
 
