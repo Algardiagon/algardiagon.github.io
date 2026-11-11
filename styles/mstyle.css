@@ -158,6 +158,7 @@ img.picture ~ figcaption {
 	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Pleurants_-_Google_Art_Project.jpg/960px-Pleurants_-_Google_Art_Project.jpg");
 background-size: cover;
   background-repeat: no-repeat;
+	  background-position: top;
 	height: 400px;
     margin-top: 500px;
     padding-bottom: 100px;
