@@ -156,6 +156,7 @@ img.picture ~ figcaption {
 }
 
 .page-end {
+	position: relative;
 	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Pleurants_-_Google_Art_Project.jpg/960px-Pleurants_-_Google_Art_Project.jpg");
 background-size: cover;
   background-repeat: no-repeat;
