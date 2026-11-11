@@ -45,6 +45,8 @@ header {
     width: 38.2%;
 }
 
+
+
 .taco {
     width: 100%;
     max-width: 1000px;
@@ -109,6 +111,28 @@ figure {
 img.picture ~ figcaption {
     text-align: center;
 }
+
+ 
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.square-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100px;
+  height: 30px;
+
+  background-color: #082419;
+  color: #F2EBD8;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
 
 .mob {
   display: none;
