@@ -152,7 +152,8 @@ img.picture ~ figcaption {
 
 .square-button:hover,
 .square-button:focus-visible {
-    background-color: var(--bcol);
+    background-color: var(--lcol);
+    color: var(--col);
     outline: none;
 }
 
