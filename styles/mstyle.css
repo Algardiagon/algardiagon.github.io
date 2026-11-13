@@ -42,7 +42,7 @@ header {
   justify-content: center;
   align-items: center;
 	
-    padding: 42px;
+    padding: 10px;
     background-color: #111111;
     border-bottom: 3px solid var(--bcol);
 }
@@ -152,8 +152,9 @@ img.picture ~ figcaption {
 
 .square-button:hover,
 .square-button:focus-visible {
-    background-color: var(--lcol);
-    color: var(--col);
+    background-color: var(--bcol);
+    border: 2px solid var(--lcol);
+    color: var(--gcol);
     outline: none;
 }
 
