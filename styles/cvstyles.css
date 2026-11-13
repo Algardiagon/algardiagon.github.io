@@ -66,7 +66,7 @@ a {
 }
 
 a:hover {
-    color: #014991;
+    color: var(--bcol);
 }
 
 /* Navigation */
