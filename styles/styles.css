@@ -8,6 +8,7 @@
     --col: #1F8A3B;
     --bcol: #ff004f;
     --lcol: #76b6ca;
+    --hcol: #DAA520;
     --heading-font: "Schoolbell";
     --body-font: 'roboto', sans-serif;
 }
@@ -80,7 +81,7 @@ a {
 }
 
 a:hover{
-    color: #E2E2B6;
+    color: var(--hcol);
 }
 
 
