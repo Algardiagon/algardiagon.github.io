@@ -42,7 +42,7 @@ header {
   justify-content: center;
   align-items: center;
 	
-    padding: 22px;
+    padding: 42px;
     background-color: #111111;
     border-bottom: 3px solid var(--bcol);
 }
@@ -106,8 +106,8 @@ figure {
 }
 
 .propic {
-    width: 130px;
-    height: 130px;
+    width: 140px;
+    height: 140px;
     object-fit: cover;
     border-radius: 50%;
 	border: 2px solid var(--bcol);
@@ -124,7 +124,7 @@ img.picture ~ figcaption {
   justify-content: center;
   width: 100%;
   gap: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 22px;
 }
 
 .square-button {
