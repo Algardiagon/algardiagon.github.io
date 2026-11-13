@@ -103,6 +103,7 @@ figure {
     max-width: 100%;
     height: auto;
     display: block;
+    padding-top: 15px;
 }
 
 .propic {
@@ -110,7 +111,6 @@ figure {
     height: 140px;
     object-fit: cover;
     border-radius: 50%;
-    padding-top: 10px;
 	border: 2px solid var(--bcol);
 }
 
