@@ -37,12 +37,12 @@ header {
   background-position: center;
   background-repeat: no-repeat;
 
-  height: 240px;
+  height: 220px;
   display: flex;
   justify-content: center;
   align-items: center;
 	
-    padding: 15px;
+    padding: 22px;
     background-color: #111111;
     border-bottom: 3px solid var(--bcol);
 }
