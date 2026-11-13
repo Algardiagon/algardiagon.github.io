@@ -150,6 +150,12 @@ img.picture ~ figcaption {
 	border: 2px solid var(--bcol);
 }
 
+.square-button:hover,
+.square-button:focus-visible {
+    background-color: var(--bcol);
+    outline: none;
+}
+
 
 .mob {
   display: none;
