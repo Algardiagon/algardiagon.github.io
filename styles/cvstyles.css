@@ -160,6 +160,23 @@ figure {
     }
 }
 
+@media print {
+    	.page-break {
+    	page-break-after: always; 
+    	break-before: page;        
+    	}
+    	.no-break {
+    	break-inside: avoid;
+    	page-break-inside: avoid; 
+    	}
+    	.page-end {
+        display: none;
+    	}
+		.taconp {
+        display: none;
+    	}
+    	}
+
 
 
 
